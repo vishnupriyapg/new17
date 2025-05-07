@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>One-Page Elementor Template</title>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    header {
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    nav {
+      background: #fff;
+      padding: 10px 20px;
+      position: sticky;
+      top: 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+    }
+    section {
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: auto;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .feature-card {
+      background: #f9f9f9;
+      padding: 30px;
+      border-radius: 12px;
+      width: 250px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+    footer {
+      background: #333;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#hero">Home</a>
+    <a href="#features">Features</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header id="hero" class="hero">
+    <h1>Modern One-Page Design</h1>
+    <p>Clean, responsive, and ready for Elementor integration.</p>
+  </header>
+
+  <section id="features">
+    <h2>Features</h2>
+    <div class="features">
+      <div class="feature-card">
+        <h3>Responsive</h3>
+        <p>Optimized for all devices from mobile to desktop.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Customizable</h3>
+        <p>Easy to tweak with Elementor or custom code.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Modern UI</h3>
+        <p>Trendy, minimalist design for better UX.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@example.com</p>
+  </section>
+
+  <footer>
+    <p>© 2025 YourBrand. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
